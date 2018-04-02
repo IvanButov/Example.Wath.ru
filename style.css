@@ -1,0 +1,326 @@
+ body {
+	 padding: 0;
+	 margin: 0 auto;
+    background:black;
+	background-attachment: fixed;
+	width:1349px;
+   }
+header {
+	position: relative;
+	top: 0;
+ height: 40%; /* Высота шапки */
+ background: url(shapka.jpg) no-repeat center bottom;
+ padding:10px;
+ 
+}
+
+.content{
+width: 1010px;
+background:white;
+margin:-27px auto 0%;
+padding:0;
+min-height:auto;
+}
+nav {
+  display: block;
+  width:1010px;
+  margin:  -25px auto 0%;
+ 	position: relative;
+ z-index: 999999;
+}
+footer{
+	color:white;
+	text-align:center;
+	 	position: relative;
+	margin:0 0 0 -22px; 
+	height:170px;
+	padding:0 11px 11px 11px;
+	width:100%;
+	font-weight: 600
+}
+
+footer li{
+	margin: 0;
+	padding: 3px;
+	display:inline;
+	
+}
+.one ul {
+	padding: 1.5% 0%;
+	width:1010px;
+	position:relative;
+	text-align:center;
+  background: linear-gradient(#8f9582, #ffffff);
+  font-size:165%;		
+}
+.one a {
+  padding: 11px;  
+  border-right: 3px solid #000000;
+  color: #000000;
+  	text-decoration:none;
+   font-weight: 600
+}
+.one a:hover {background: #40403e;}
+.one li {
+  display: inline;
+}
+.one ul li:last-child a{
+	border-right: 0;
+}
+.caption{
+	font-size:150%;
+	text-align:center;
+	font-weight:600;
+	padding:10px;
+}
+/*Страница каталога*/
+aside {
+	width: 1011px;
+	clear: both;
+	padding: 0 2px 2px 0px;
+	height: auto;
+	position: relative;
+	margin:0;
+}
+aside ul {
+	padding: 0;
+	margin: 0;
+}
+aside li{
+	float: left;
+	display: inline;
+	
+	height: auto;
+	width: 336.8px;
+	background-image: linear-gradient(#ffffff, #8f9582);
+}
+aside li:hover {
+	background: grey;
+}
+aside a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+	font-weight:600;
+}
+.btnbike ul {
+	position: absolute;
+	width: 200px;
+	display: none;
+}
+.btnbike:hover ul {
+	display: block;
+}
+.table2{
+	font-size:130%;
+	text-align:center;
+	border-radius:8px;
+	border:5px double black;
+	background:white;
+	border-collapse: collapse;
+	vertical-align:bottom;
+	height:auto;
+	width:1011px;
+	margin:0;
+	padding:0;
+
+}
+.table2 a{
+	text-decoration:none;
+	color:black;
+	margin:0;
+	padding:0;
+
+}
+TD, TH {
+    padding: 5px; /* Поля вокруг текста */
+    border: 2px double black; /* Рамка вокруг ячеек */
+	vertical-align:bottom;
+	margin:0;
+   }
+   .br{
+	   text-align:center;
+   }
+   .brl{
+	   text-align:center;
+	   background:#007E3E;
+	   color:white;
+	   border-radius: 20px;
+   }
+.p3{
+	margin:0px;
+	background: #c4c3c1; /* Цвет фона */
+    color: black; /* Цвет текста */
+    padding: 5px; /* Поля вокруг текста */
+    border-radius: 8px; /* Уголки */
+	font-weight:600;
+}
+.p4{
+	margin:-30px 30px 0 30;
+	background: #81807e; /* Цвет фона */
+    color: black; /* Цвет текста */
+    padding: 5px; /* Поля вокруг текста */
+    border-radius: 8px; /* Уголки */
+}
+h1{
+	text-align:center;
+}
+
+.pFooter{
+	margin:-10px;
+	padding:-55px;
+}
+video{
+	height:571px;
+	width:1010px;
+	
+}
+.brKont{
+	text-decoration: none;
+	font-weight:600;
+	margin:-25px 0 0 0;
+	padding:0 20px 0 20px;
+	text-align:justify;
+}
+
+
+.input1000
+{
+	position:relative;
+	padding:10px;
+	margin;10px;
+}
+.a100
+{
+	text-decoration:none;
+	color:black;
+	font-weight:600;
+	border:3px solid black;
+	border-radius:15px;
+	padding:5px;
+	margin:10px 10px 10px 0;
+	
+}
+.a102
+{
+		text-decoration:none;
+	color:black;
+	font-weight:600;
+	border:3px solid black;
+	border-radius:15px;
+	padding:5px;
+	margin:10px 10px 10px 0;
+}
+.button255
+{
+	margin:10px;
+	color:black;
+	font-size:14pt;
+	text-decoration:none;
+	border:3px solid white;
+	border-radius:5px;
+	background:white;
+	padding:10px;
+}
+.text
+{
+	margin: 0 20px 0 0;
+	padding:2px;
+	border:2px solid black;
+	
+}
+.p55
+{
+	font-size:16pt;
+	font-weight:600;
+	padding:10px;
+	margin:0 0 0 0;
+}
+.button255
+{
+	margin:10px;
+	border:2px solid white;
+	border-radius:3px;
+	font-size:18pt;
+		font-weight:600;
+}
+.button101
+{	margin:10px;
+	border:2px solid white;
+	border-radius:15px;
+	font-size:18pt;
+	font-weight:600;
+}
+.buttonVxod
+{
+	background:#808080;
+	margin:13px;
+	padding:10px 50px 10px 50px;
+	border:3px solid white;
+	border-radius:7px;
+	font-size:12pt;
+	font-weight:900;
+}
+.buttonVxod:hover{
+	background:#2F4F4F;
+	color:white;
+}
+.poleVxod
+{
+	padding:10px;
+	margin:5px;
+	color:black;
+	font-weight:900;
+}
+.poleVxod2
+{
+	padding:10px;
+	margin:5px 500px 0 400px;
+	color:black;
+	font-weight:900;
+}
+.poleVxod3
+{
+	padding:10px;
+	margin:20px 500px 10px 400px;
+	color:black;
+	font-weight:900;
+}
+.pre1
+{
+	padding:10px;
+	margin:-0px 500px 0 415px;
+	color:black;
+	font-size:22pt;
+	font-weight:900;
+}
+.buttonVxod1
+{
+	background:#808080;
+	margin:10px 500px 50px 433px;
+	padding:10px 50px 10px 50px;
+	border:3px solid white;
+	border-radius:7px;
+	font-size:12pt;
+	font-weight:900;
+}
+.buttonVxod1:hover{
+	background:#2F4F4F;
+	color:white;
+}
+.buttonVxod2
+{
+	background:#808080;
+	margin:10px 500px 50px 400px;
+	padding:10px 50px 10px 50px;
+	border:3px solid white;
+	border-radius:7px;
+	font-size:12pt;
+	font-weight:900;
+}
+.buttonVxod2:hover{
+	background:#2F4F4F;
+	color:white;
+}
